@@ -1,0 +1,27 @@
+=============== Sep 5, 2021 (CST) ===============
+22:58:16.537414 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:58:16.543802 db@open opening
+22:58:16.543979 version@stat F·[] S·0B[] Sc·[]
+22:58:16.554007 db@janitor F·2 G·0
+22:58:16.554022 db@open done T·10.209348ms
+=============== Sep 6, 2021 (CST) ===============
+10:47:21.317178 memdb@flush N·46009 S·3MiB
+10:47:21.494190 memdb@flush created L0@3 N·46009 S·640KiB "\t\xf9\xb9..\u007f\x03\xe1,v9452":"\xc6-\x16..\x8e\xc1\xd2,v1416"
+10:47:21.494302 version@stat F·[1] S·640KiB[640KiB] Sc·[0.25]
+10:47:21.506952 memdb@flush committed F·1 T·189.064068ms
+10:47:21.509393 journal@remove removed @1
+13:03:43.856740 memdb@flush N·46128 S·3MiB
+13:03:43.881425 memdb@flush created L0@5 N·46128 S·649KiB "blo..\x01\xc5x,v46010":"blo..k\x00\x01,v92109"
+13:03:43.881489 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+13:03:43.890702 memdb@flush committed F·1 T·33.913562ms
+13:03:43.892081 journal@remove removed @2
+=============== Sep 6, 2021 (CST) ===============
+14:36:56.407477 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:36:56.407656 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+14:36:56.407703 db@open opening
+14:36:56.407768 journal@recovery F·1
+14:36:56.407951 journal@recovery recovering @4
+14:36:56.417922 memdb@flush created L0@6 N·4743 S·68KiB "blo..\x01\xcbH,v92138":"blo..k\x00\x01,v96852"
+14:36:56.420066 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+14:36:56.437654 db@janitor F·5 G·0
+14:36:56.437689 db@open done T·29.970695ms
