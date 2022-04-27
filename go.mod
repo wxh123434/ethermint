@@ -4,7 +4,7 @@ go 1.15
 
 require (
 	github.com/aristanetworks/goarista v0.0.0-20201012165903-2cb20defcd66 // indirect
-	github.com/armon/go-metrics v0.3.6
+	github.com/armon/go-metrics v0.3.11
 	github.com/btcsuite/btcd v0.21.0-beta
 	github.com/btcsuite/btcutil v1.0.2
 	github.com/cespare/cp v1.1.1 // indirect
@@ -30,11 +30,10 @@ require (
 	github.com/spf13/viper v1.7.1
 	github.com/status-im/keycard-go v0.0.0-20200402102358-957c09536969
 	github.com/stretchr/testify v1.7.0
-	github.com/tendermint/go-amino v0.16.0 // indirect
 	github.com/tendermint/tendermint v0.34.10
 	github.com/tendermint/tm-db v0.6.4
 	github.com/tyler-smith/go-bip39 v1.0.2
-	github.com/wxh123434/integrity v0.0.0-20210831023713-22c997551598 // indirect
+	github.com/wxh123434/integrity v0.0.0-20210831023713-22c997551598
 	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
 	google.golang.org/genproto v0.0.0-20210405174219-a39eb2f71cb9
 	google.golang.org/grpc v1.37.0
